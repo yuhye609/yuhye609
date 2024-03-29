@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #222;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+img {
+    vertical-align: top;
+}
+
+fieldset,
+button,
+img {
+    border: 0;
+}
+
+legend {
+    font-size: 0;
+    color: transparent;
+    text-indent: -9999px;
+}
+
+button {
+    background: none;
+    cursor: pointer;
+}
+
+input {
+    outline: 0;
+    border: 0;
+    font-size: 16rem;
+    text-indent: 7px;
+}
+
+.autoH::after {
+    content: "";
+    display: block;
+    clear: both;
+}

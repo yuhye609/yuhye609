@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+
+
+body,
+input,
+textarea {
+    font-family: 'Pretendard-Regular', '나눔고딕', '맑은 고딕', 'Malgun Gothic', 'Apple SD Gothic Neo', 돋움, Dotum, sans-serif;
+}
